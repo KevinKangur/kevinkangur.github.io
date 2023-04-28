@@ -3,5 +3,18 @@
 }
 
 .cat {
-    border: 1px slateblue dotted;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#cat.breed {
+    font-weight: bold;
+}
+
+.breed {
+    font-weight: bold;
 }
